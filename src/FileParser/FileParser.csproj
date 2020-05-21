@@ -18,14 +18,12 @@
     <RepositoryType>git</RepositoryType>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PackageVersion>1.6.1-alpha-1324</PackageVersion>
   </PropertyGroup>
-
   <PropertyGroup>
     <DocumentationFile>bin\$(Configuration)\$(TargetFramework)\$(AssemblyName).xml</DocumentationFile>
     <NoWarn>1591</NoWarn>
   </PropertyGroup>
-
   <Import Project="FileParser.targets" />
   <Import Project="FileParser.tasks" />
-
 </Project>
